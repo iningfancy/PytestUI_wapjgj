@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "0bf6dd95ea4748a5c0a4902acd72bdcb",
+    "name" : "scr.testcase",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 31,
+      "unknown" : 0,
+      "total" : 39
+    }
+  } ]
+}

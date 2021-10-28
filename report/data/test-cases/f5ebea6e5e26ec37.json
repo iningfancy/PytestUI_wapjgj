@@ -1,0 +1,138 @@
+{
+  "uid" : "f5ebea6e5e26ec37",
+  "name" : "找工作测试用例01",
+  "fullName" : "scr.testcase.test_findwork.TestFindWork#test_findwork_01",
+  "historyId" : "a4913e05dc7f7058e9ccce498ff204b5",
+  "time" : {
+    "start" : 1634978621913,
+    "stop" : 1634978632019,
+    "duration" : 10106
+  },
+  "description" : "点击搜索按钮，跳转搜索页面",
+  "descriptionHtml" : "<p>点击搜索按钮，跳转搜索页面</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_init",
+    "time" : {
+      "start" : 1634978620750,
+      "stop" : 1634978621912,
+      "duration" : 1162
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "LoggerGet",
+    "time" : {
+      "start" : 1634978620750,
+      "stop" : 1634978620750,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击搜索按钮，跳转搜索页面",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击搜索按钮，跳转搜索页面",
+      "time" : {
+        "start" : 1634978621913,
+        "stop" : 1634978632019,
+        "duration" : 10106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver_init::0",
+    "time" : {
+      "start" : 1634978632019,
+      "stop" : 1634978634118,
+      "duration" : 2099
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "找工作模块测试"
+  }, {
+    "name" : "feature",
+    "value" : "找工作模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scr.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_findwork"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFindWork"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HT2VT3A"
+  }, {
+    "name" : "thread",
+    "value" : "5576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scr.testcase.test_findwork"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5ebea6e5e26ec37.json",
+  "parameterValues" : [ ]
+}

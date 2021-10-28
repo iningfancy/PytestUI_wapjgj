@@ -1,0 +1,138 @@
+{
+  "uid" : "9ae2f6e2d5f20a17",
+  "name" : "首页测试用例01",
+  "fullName" : "scr.testcase.test_homepage.TestHomePage#test_homepage_01",
+  "historyId" : "1408c8e40c2fac212b1163b768403d9c",
+  "time" : {
+    "start" : 1634978974634,
+    "stop" : 1634978984779,
+    "duration" : 10145
+  },
+  "description" : "进入首页，点击招工信息，可进入招工详情页",
+  "descriptionHtml" : "<p>进入首页，点击招工信息，可进入招工详情页</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "LoggerGet",
+    "time" : {
+      "start" : 1634978620750,
+      "stop" : 1634978620750,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver_init",
+    "time" : {
+      "start" : 1634978973576,
+      "stop" : 1634978974634,
+      "duration" : 1058
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "进入首页，点击招工信息，可进入招工详情页",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入首页，点击招工信息，可进入招工详情页",
+      "time" : {
+        "start" : 1634978974634,
+        "stop" : 1634978984779,
+        "duration" : 10145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver_init::0",
+    "time" : {
+      "start" : 1634978984779,
+      "stop" : 1634978986919,
+      "duration" : 2140
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "首页模块"
+  }, {
+    "name" : "story",
+    "value" : "首页模块测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scr.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_homepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomePage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HT2VT3A"
+  }, {
+    "name" : "thread",
+    "value" : "5576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scr.testcase.test_homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ae2f6e2d5f20a17.json",
+  "parameterValues" : [ ]
+}

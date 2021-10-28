@@ -1,0 +1,391 @@
+[ {
+  "uid" : "c7731bc7d1e0abe7",
+  "name" : "首页测试用例06",
+  "time" : {
+    "start" : 1634979148627,
+    "stop" : 1634979158835,
+    "duration" : 10208
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3cc1121721da299d",
+  "name" : "找工作测试用例06",
+  "time" : {
+    "start" : 1634978776466,
+    "stop" : 1634978806484,
+    "duration" : 30018
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "c451113318496fcf",
+  "name" : "首页测试用例07",
+  "time" : {
+    "start" : 1634979162023,
+    "stop" : 1634979172959,
+    "duration" : 10936
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "30f2ecb208dde8c2",
+  "name" : "找工作测试用例02",
+  "time" : {
+    "start" : 1634978635199,
+    "stop" : 1634978645391,
+    "duration" : 10192
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3346d4a02084adac",
+  "name" : "首页测试用例08",
+  "time" : {
+    "start" : 1634979176170,
+    "stop" : 1634979186490,
+    "duration" : 10320
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4e44f233f53a5c65",
+  "name" : "首页测试用例10",
+  "time" : {
+    "start" : 1634979203529,
+    "stop" : 1634979217850,
+    "duration" : 14321
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ab67bdc49037f5a1",
+  "name" : "找工人测试用例04",
+  "time" : {
+    "start" : 1634978869861,
+    "stop" : 1634978887289,
+    "duration" : 17428
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9d6e52ac7ca2c2e6",
+  "name" : "个人中心测试用例09",
+  "time" : {
+    "start" : 1634979532650,
+    "stop" : 1634979551189,
+    "duration" : 18539
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d1428e27c6f37c4d",
+  "name" : "个人中心测试用例05",
+  "time" : {
+    "start" : 1634979478056,
+    "stop" : 1634979488309,
+    "duration" : 10253
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d17a3be5f3314060",
+  "name" : "首页测试用例02",
+  "time" : {
+    "start" : 1634979015053,
+    "stop" : 1634979024983,
+    "duration" : 9930
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "68ce5685f076502e",
+  "name" : "首页测试用例04",
+  "time" : {
+    "start" : 1634979094514,
+    "stop" : 1634979104748,
+    "duration" : 10234
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "9a208349f3297a07",
+  "name" : "找工人测试用例01",
+  "time" : {
+    "start" : 1634978809692,
+    "stop" : 1634978820338,
+    "duration" : 10646
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "14e5ed5ae042108c",
+  "name" : "首页测试用例03",
+  "time" : {
+    "start" : 1634979054725,
+    "stop" : 1634979064724,
+    "duration" : 9999
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "18ec52238db2c1c0",
+  "name" : "找工人测试用例03",
+  "time" : {
+    "start" : 1634978846194,
+    "stop" : 1634978866659,
+    "duration" : 20465
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "843867861a345d7f",
+  "name" : "找工作测试用例03",
+  "time" : {
+    "start" : 1634978648595,
+    "stop" : 1634978665981,
+    "duration" : 17386
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d21f94832e33379d",
+  "name" : "个人中心测试用例07",
+  "time" : {
+    "start" : 1634979505138,
+    "stop" : 1634979515771,
+    "duration" : 10633
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "df0f59a91567e103",
+  "name" : "找工人测试用例05",
+  "time" : {
+    "start" : 1634978890457,
+    "stop" : 1634978904368,
+    "duration" : 13911
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "92e96c58c0af2b68",
+  "name" : "个人中心测试用例03",
+  "time" : {
+    "start" : 1634979448907,
+    "stop" : 1634979461217,
+    "duration" : 12310
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8fe9095143eff040",
+  "name" : "个人中心测试用例02",
+  "time" : {
+    "start" : 1634979436443,
+    "stop" : 1634979445728,
+    "duration" : 9285
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f5ebea6e5e26ec37",
+  "name" : "找工作测试用例01",
+  "time" : {
+    "start" : 1634978621913,
+    "stop" : 1634978632019,
+    "duration" : 10106
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "53b2446b0a4d92f",
+  "name" : "登录测试用例01",
+  "time" : {
+    "start" : 1634979382294,
+    "stop" : 1634979392345,
+    "duration" : 10051
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "a44ae58fc540eb9b",
+  "name" : "首页测试用例05",
+  "time" : {
+    "start" : 1634979135237,
+    "stop" : 1634979145415,
+    "duration" : 10178
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "9bdb13df50919dbc",
+  "name" : "找工人测试用例02",
+  "time" : {
+    "start" : 1634978823638,
+    "stop" : 1634978843011,
+    "duration" : 19373
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "14e046fd7a92468c",
+  "name" : "找工作测试用例05",
+  "time" : {
+    "start" : 1634978692724,
+    "stop" : 1634978707877,
+    "duration" : 15153
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1b4029641f9ee03",
+  "name" : "登录测试用例02",
+  "time" : {
+    "start" : 1634979395568,
+    "stop" : 1634979406646,
+    "duration" : 11078
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "28c10a8f181a7f3f",
+  "name" : "个人中心测试用例08",
+  "time" : {
+    "start" : 1634979519030,
+    "stop" : 1634979529438,
+    "duration" : 10408
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "921fc75472b29f1",
+  "name" : "个人中心测试用例06",
+  "time" : {
+    "start" : 1634979491475,
+    "stop" : 1634979501957,
+    "duration" : 10482
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "87b299a62eca86cb",
+  "name" : "个人中心测试用例01",
+  "time" : {
+    "start" : 1634979423933,
+    "stop" : 1634979433261,
+    "duration" : 9328
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7db91f58480542b6",
+  "name" : "找工人测试用例07",
+  "time" : {
+    "start" : 1634978931365,
+    "stop" : 1634978948830,
+    "duration" : 17465
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "61af8aa613c3a2",
+  "name" : "找工人测试用例06",
+  "time" : {
+    "start" : 1634978907566,
+    "stop" : 1634978928183,
+    "duration" : 20617
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "614ad134a7208b91",
+  "name" : "登录测试用例02",
+  "time" : {
+    "start" : 1634979409840,
+    "stop" : 1634979420743,
+    "duration" : 10903
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9ae2f6e2d5f20a17",
+  "name" : "首页测试用例01",
+  "time" : {
+    "start" : 1634978974634,
+    "stop" : 1634978984779,
+    "duration" : 10145
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ee9a83448a7330f5",
+  "name" : "首页测试用例11",
+  "time" : {
+    "start" : 1634979221134,
+    "stop" : 1634979231570,
+    "duration" : 10436
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cd346f56d2738ec1",
+  "name" : "首页测试用例12",
+  "time" : {
+    "start" : 1634979258174,
+    "stop" : 1634979266570,
+    "duration" : 8396
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "958cea20c0f027e",
+  "name" : "首页测试用例13",
+  "time" : {
+    "start" : 1634979327147,
+    "stop" : 1634979352602,
+    "duration" : 25455
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "4adf911f8b172e38",
+  "name" : "个人中心测试用例04",
+  "time" : {
+    "start" : 1634979464500,
+    "stop" : 1634979474767,
+    "duration" : 10267
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ef3182f44af12057",
+  "name" : "首页测试用例09",
+  "time" : {
+    "start" : 1634979189687,
+    "stop" : 1634979200333,
+    "duration" : 10646
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e5264e394180e118",
+  "name" : "找工人测试用例08",
+  "time" : {
+    "start" : 1634978952016,
+    "stop" : 1634978971441,
+    "duration" : 19425
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5019d72642957b07",
+  "name" : "找工作测试用例04",
+  "time" : {
+    "start" : 1634978669156,
+    "stop" : 1634978689535,
+    "duration" : 20379
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

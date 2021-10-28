@@ -1,0 +1,149 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '我发布的招工' == '完善信息'\n  - 完善信息\n  + 我发布的招工",
+      "children" : [ {
+        "name" : "找工作测试用例06",
+        "uid" : "3cc1121721da299d",
+        "parentUid" : "fc14b58f4f32155b43451eb300f42392",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634978776466,
+          "stop" : 1634978806484,
+          "duration" : 30018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc14b58f4f32155b43451eb300f42392"
+    }, {
+      "name" : "AssertionError: assert '建筑木工/铝模/二次结构' == '选择工种'\n  - 选择工种\n  + 建筑木工/铝模/二次结构",
+      "children" : [ {
+        "name" : "首页测试用例02",
+        "uid" : "d17a3be5f3314060",
+        "parentUid" : "02a595aed7dac1075e23bc0c8822f04e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634979015053,
+          "stop" : 1634979024983,
+          "duration" : 9930
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "02a595aed7dac1075e23bc0c8822f04e"
+    }, {
+      "name" : "AssertionError: assert '装修木工/吊顶/木地板' == '选择工种'\n  - 选择工种\n  + 装修木工/吊顶/木地板",
+      "children" : [ {
+        "name" : "首页测试用例03",
+        "uid" : "14e5ed5ae042108c",
+        "parentUid" : "2827b24a1e082e36e0950f2757272793",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634979054725,
+          "stop" : 1634979064724,
+          "duration" : 9999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2827b24a1e082e36e0950f2757272793"
+    }, {
+      "name" : "AssertionError: assert '焊工/铆工/钣金/钳工' == '选择工种'\n  - 选择工种\n  + 焊工/铆工/钣金/钳工",
+      "children" : [ {
+        "name" : "首页测试用例04",
+        "uid" : "68ce5685f076502e",
+        "parentUid" : "9486a8c169faed555fbf36ac03da1a1d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634979094514,
+          "stop" : 1634979104748,
+          "duration" : 10234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9486a8c169faed555fbf36ac03da1a1d"
+    }, {
+      "name" : "AssertionError: assert '工厂普工' == '选择工种'\n  - 选择工种\n  + 工厂普工",
+      "children" : [ {
+        "name" : "首页测试用例05",
+        "uid" : "a44ae58fc540eb9b",
+        "parentUid" : "8a05819ca163ebc83215e6a08be141f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634979135237,
+          "stop" : 1634979145415,
+          "duration" : 10178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a05819ca163ebc83215e6a08be141f6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=95.0.4638.54)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0028BDE3+2473443]\n\tOrdinal0 [0x00226661+2057825]\n\tOrdinal0 [0x00132300+1057536]\n\tOrdinal0 [0x00157E43+1211971]\n\tOrdinal0 [0x0015758A+1209738]\n\tOrdinal0 [0x001756E3+1332963]\n\tOrdinal0 [0x00153386+1192838]\n\tOrdinal0 [0x001757CA+1333194]\n\tOrdinal0 [0x00184ABF+1395391]\n\tOrdinal0 [0x001755AB+1332651]\n\tOrdinal0 [0x00152104+1188100]\n\tOrdinal0 [0x00152F59+1191769]\n\tGetHandleVerifier [0x00412266+1549718]\n\tGetHandleVerifier [0x004BD4A7+2250711]\n\tGetHandleVerifier [0x0031718B+521403]\n\tGetHandleVerifier [0x00316229+517465]\n\tOrdinal0 [0x0022B79D+2078621]\n\tOrdinal0 [0x0022FB58+2095960]\n\tOrdinal0 [0x0022FC92+2096274]\n\tOrdinal0 [0x00239541+2135361]\n\tBaseThreadInitThunk [0x7561FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x771E7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x771E7A6E+238]\n\t(No symbol) [0x00000000]",
+      "children" : [ {
+        "name" : "首页测试用例12",
+        "uid" : "cd346f56d2738ec1",
+        "parentUid" : "7c6da9f727d74dd291efcbcb4a105061",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634979258174,
+          "stop" : 1634979266570,
+          "duration" : 8396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, '找工作-输入搜索内容，点击搜索，成功展示标题包含输入内容的搜索内容', '成都', None, None]" ]
+      } ],
+      "uid" : "7c6da9f727d74dd291efcbcb4a105061"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"scrollBody\"]/div[4]/div/div[1]/a/div/div/div[1]/div[1]/div[2]/div[1]/h1\"}\n  (Session info: chrome=95.0.4638.54)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0028BDE3+2473443]\n\tOrdinal0 [0x00226661+2057825]\n\tOrdinal0 [0x00132438+1057848]\n\tOrdinal0 [0x0015C7DB+1230811]\n\tOrdinal0 [0x00186712+1402642]\n\tOrdinal0 [0x0017571A+1333018]\n\tOrdinal0 [0x00184ABF+1395391]\n\tOrdinal0 [0x001755AB+1332651]\n\tOrdinal0 [0x00152104+1188100]\n\tOrdinal0 [0x00152F59+1191769]\n\tGetHandleVerifier [0x00412266+1549718]\n\tGetHandleVerifier [0x004BD4A7+2250711]\n\tGetHandleVerifier [0x0031718B+521403]\n\tGetHandleVerifier [0x00316229+517465]\n\tOrdinal0 [0x0022B79D+2078621]\n\tOrdinal0 [0x0022FB58+2095960]\n\tOrdinal0 [0x0022FC92+2096274]\n\tOrdinal0 [0x00239541+2135361]\n\tBaseThreadInitThunk [0x7561FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x771E7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x771E7A6E+238]\n\t(No symbol) [0x00000000]",
+      "children" : [ {
+        "name" : "首页测试用例13",
+        "uid" : "958cea20c0f027e",
+        "parentUid" : "17672980d07612ce40905af1e1c19c29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634979327147,
+          "stop" : 1634979352602,
+          "duration" : 25455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, '找工人-输入搜索内容，点击搜索，成功展示姓名匹配正确的搜索内容', '小小', None, None]" ]
+      } ],
+      "uid" : "17672980d07612ce40905af1e1c19c29"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[name=\"telph\"]\"}\n  (Session info: chrome=95.0.4638.54)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0028BDE3+2473443]\n\tOrdinal0 [0x00226661+2057825]\n\tOrdinal0 [0x00132438+1057848]\n\tOrdinal0 [0x0015C7DB+1230811]\n\tOrdinal0 [0x00186712+1402642]\n\tOrdinal0 [0x0017571A+1333018]\n\tOrdinal0 [0x00184ABF+1395391]\n\tOrdinal0 [0x001755AB+1332651]\n\tOrdinal0 [0x00152104+1188100]\n\tOrdinal0 [0x00152F59+1191769]\n\tGetHandleVerifier [0x00412266+1549718]\n\tGetHandleVerifier [0x004BD4A7+2250711]\n\tGetHandleVerifier [0x0031718B+521403]\n\tGetHandleVerifier [0x00316229+517465]\n\tOrdinal0 [0x0022B79D+2078621]\n\tOrdinal0 [0x0022FB58+2095960]\n\tOrdinal0 [0x0022FC92+2096274]\n\tOrdinal0 [0x00239541+2135361]\n\tBaseThreadInitThunk [0x7561FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x771E7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x771E7A6E+238]\n\t(No symbol) [0x00000000]",
+      "children" : [ {
+        "name" : "登录测试用例01",
+        "uid" : "53b2446b0a4d92f",
+        "parentUid" : "d08baf64e78ac6ea373f881cdfb1d020",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634979382294,
+          "stop" : 1634979392345,
+          "duration" : 10051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, '输入正确的手机号和验证，登陆成功', '18583773317', '1101', 'y', None]" ]
+      } ],
+      "uid" : "d08baf64e78ac6ea373f881cdfb1d020"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
