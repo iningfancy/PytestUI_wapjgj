@@ -108,7 +108,7 @@ class TestHomePage():
         lp = scr.page.login_page.LoginPage(self.driver)
         lp.login_step()
         wk = scr.page.home_page.HomePage(self.driver)
-        value = wk.find_work()
+        value = wk.find_job()
         assert '找工作' == value
 
     @allure.story("首页模块测试")

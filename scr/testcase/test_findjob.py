@@ -8,7 +8,7 @@
 import allure
 import pytest
 import scr.page.login_page
-import scr.page.findwork_page
+import scr.page.findjob_page
 from scr.common.excel_util import read_excel
 
 
@@ -23,7 +23,7 @@ class TestFindWork():
     def test_findwork_01(self):
         lp = scr.page.login_page.LoginPage(self.driver)
         lp.login_step()
-        wk = scr.page.findwork_page.FindWorkPage(self.driver)
+        wk = scr.page.findjob_page.FindJobPage(self.driver)
         value = wk.search_img()
         assert '搜索' == value
 
@@ -35,8 +35,8 @@ class TestFindWork():
     def test_findwork_02(self):
         lp = scr.page.login_page.LoginPage(self.driver)
         lp.login_step()
-        wk = scr.page.findwork_page.FindWorkPage(self.driver)
-        value = wk.search_my_work()
+        wk = scr.page.findjob_page.FindJobPage(self.driver)
+        value = wk.search_my_job()
         assert '我的找活名片' == value
 
     @allure.story("找工作模块测试")
@@ -47,7 +47,7 @@ class TestFindWork():
     def test_findwork_03(self):
         lp = scr.page.login_page.LoginPage(self.driver)
         lp.login_step()
-        wk = scr.page.findwork_page.FindWorkPage(self.driver)
+        wk = scr.page.findjob_page.FindJobPage(self.driver)
         value = wk.choose_city()
         assert '晋中' == value
 
@@ -59,7 +59,7 @@ class TestFindWork():
     def test_findwork_04(self):
         lp = scr.page.login_page.LoginPage(self.driver)
         lp.login_step()
-        wk = scr.page.findwork_page.FindWorkPage(self.driver)
+        wk = scr.page.findjob_page.FindJobPage(self.driver)
         value = wk.choose_worktype()
         assert '安全员' == value
 
@@ -71,7 +71,7 @@ class TestFindWork():
     def test_findwork_05(self):
         lp = scr.page.login_page.LoginPage(self.driver)
         lp.login_step()
-        wk = scr.page.findwork_page.FindWorkPage(self.driver)
+        wk = scr.page.findjob_page.FindJobPage(self.driver)
         value = wk.choose_other()
         assert '实名' == value
 
@@ -86,6 +86,6 @@ class TestFindWork():
     def test_findwork_06(self):
         lp = scr.page.login_page.LoginPage(self.driver)
         lp.login_step()
-        wk = scr.page.findwork_page.FindWorkPage(self.driver)
+        wk = scr.page.findjob_page.FindJobPage(self.driver)
         value = wk.recruitment_information()
         assert '我发布的招工' == value

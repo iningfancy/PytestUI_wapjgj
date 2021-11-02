@@ -10,12 +10,12 @@ from scr.common.base_page import BasePage
 import time
 import logging
 
-class FindWorkPage(BasePage):
+class FindJobPage(BasePage):
 
     '''页面元素定位'''
     find_body = (By.XPATH, '//img[@src="/_nuxt/img/search.9ed5ee7.png"]')   #搜索框
     title_center = (By.CLASS_NAME, 'center')    #顶部标题
-    menu_find_work = (By.XPATH, '//i[@class="iconfont iconzhaogongzuo"]')  # 菜单栏找工作
+    menu_find_job = (By.XPATH, '//i[@class="iconfont iconzhaogongzuo"]')  # 菜单栏找工作
     my_work_top = (By.XPATH, '//*[@class="search"]//div[@class="right"]')    #顶部我的找活按钮
     option = (By.XPATH, '//*[@class="van-ellipsis"]')  # 选项框
     frist_city = (By.XPATH, '//div[@class="province-item"]')       #城市一级菜单
@@ -35,15 +35,15 @@ class FindWorkPage(BasePage):
 
     '''页面动作'''
     def search_img(self):
-        self.click(self.menu_find_work)
+        self.click(self.menu_find_job)
         time.sleep(1)
         self.click(self.find_body)
         time.sleep(1)
         center = self.locate_element(self.title_center).text     # 获取页面顶部文字：’搜索‘
         return center
 
-    def search_my_work(self):
-        self.click(self.menu_find_work)
+    def search_my_job(self):
+        self.click(self.menu_find_job)
         time.sleep(1)
         self.click(self.my_work_top)
         time.sleep(1)
@@ -51,7 +51,7 @@ class FindWorkPage(BasePage):
         return center
 
     def choose_city(self):
-        self.click(self.menu_find_work)
+        self.click(self.menu_find_job)
         time.sleep(1)
         options = self.loc_elements(self.option)
         time.sleep(1)
@@ -69,7 +69,7 @@ class FindWorkPage(BasePage):
         return city
 
     def choose_worktype(self):
-        self.click(self.menu_find_work)
+        self.click(self.menu_find_job)
         time.sleep(1)
         options = self.loc_elements(self.option)
         time.sleep(1)
@@ -84,7 +84,7 @@ class FindWorkPage(BasePage):
         return worktype
 
     def choose_other(self):
-        self.click(self.menu_find_work)
+        self.click(self.menu_find_job)
         time.sleep(1)
         options = self.loc_elements(self.option)
         time.sleep(1)

@@ -14,7 +14,7 @@ class HomePage(BasePage):
 
     '''页面元素定位'''
     work_title = (By.XPATH,'//*[@id="scrollBody"]/div[1]/div[2]/div[1]/div/div[1]/div[1]/div')  #列表招工信息第一个
-    search_frist_work = (By.XPATH,'//*[@id="scrollBody"]/div[3]/div/div[1]/div[1]/div/a/h2/span')   #搜索工作定位
+    search_frist_job = (By.XPATH,'//*[@id="scrollBody"]/div[3]/div/div[1]/div[1]/div/a/h2/span')   #搜索工作定位
     search_frist_worker = (By.XPATH, '//*[@id="scrollBody"]/div[4]/div/div[1]/a/div/div/div[1]/div[1]/div[2]/div[1]/h1')  # 搜索工人定位
     title_center = (By.CLASS_NAME, 'center')    #顶部标题
     construction = (By.LINK_TEXT,'建筑招工')    #建筑招工按钮
@@ -24,9 +24,9 @@ class HomePage(BasePage):
     work_types = (By.XPATH,'//*[@id="scrollBody"]/div[2]/div/div/div/ul/li[2]/div')    #选择工种选项框
     my_work_top = (By.XPATH, '//*[@class="custom-header"]//div[@class="right"]')    #顶部我的找活按钮
     my_work_bottom = (By.LINK_TEXT, '我的找活')  # 底部我的找活按钮
-    menu_find_work =(By.XPATH, '//i[@class="iconfont iconzhaogongzuo"]')    #菜单栏找工作
+    menu_find_job =(By.XPATH, '//i[@class="iconfont iconzhaogongzuo"]')    #菜单栏找工作
     menu_find_worker = (By.XPATH, '//i[@class="iconfont iconzhaogongren"]')     #菜单栏找工人
-    top_find_work = (By.XPATH, '//span[text()="找工作"]')      #顶部找工作
+    top_find_job = (By.XPATH, '//span[text()="找工作"]')      #顶部找工作
     top_find_worker = (By.XPATH, '//span[text()="找工人"]')    #顶部找工人
     city_select = (By.XPATH, '//*[@class="van-ellipsis"]')      #首页城市选项框
     frist_city = (By.CLASS_NAME, "province-item")       #城市一级菜单
@@ -34,7 +34,7 @@ class HomePage(BasePage):
     find_body = (By.XPATH, '//input[@type="search"]')   #搜索框
     search_button = (By.XPATH, '//div[text()="搜索"]')   #搜索页-搜索按钮
     shear_work = (By.XPATH, '//img[@alt="分享"]')  # 分享
-    Qr_code = (By.XPATH, '//div[text()="长按二维码保存"]')  # 吉工家 招工找活
+    Qr_code = (By.XPATH, '//div[text()="长按二维码保存"]')  #吉工家 招工找活
 
 
     '''页面动作'''
@@ -84,10 +84,10 @@ class HomePage(BasePage):
         center = self.locate_element(self.title_center).text    # 获取页面顶部文字：’我的找活名片‘
         return center
 
-    def find_work(self):
-        self.click(self.menu_find_work)
+    def find_job(self):
+        self.click(self.menu_find_job)
         time.sleep(2)
-        center = self.locate_element(self.top_find_work).text   # 获取页面顶部文字：’找工作‘
+        center = self.locate_element(self.top_find_job).text   # 获取页面顶部文字：’找工作‘
         return center
 
     def find_worker(self):
@@ -119,7 +119,7 @@ class HomePage(BasePage):
         self.send_keys(self.find_body,content)
         time.sleep(5)
         self.click(self.search_button)
-        title = self.locate_element(self.search_frist_work).text    #获取搜索的工作第一个标题
+        title = self.locate_element(self.search_frist_job).text    #获取搜索的工作第一个标题
         return title
 
     def search_worker(self,content):

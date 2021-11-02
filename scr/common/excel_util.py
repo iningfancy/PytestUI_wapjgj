@@ -31,5 +31,5 @@ def read_excel(excel_url,sheet_name):
     # print(all_list[0][3])
     return all_list
 
-if __name__ == '__main__':
-    read_excel("../../data/data.xlsx","login")
+# if __name__ == '__main__':
+#     read_excel("../../data/data_login.xlsx","login")
