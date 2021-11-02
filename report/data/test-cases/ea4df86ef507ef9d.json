@@ -1,0 +1,159 @@
+{
+  "uid" : "ea4df86ef507ef9d",
+  "name" : "手机号为空，不可登陆",
+  "fullName" : "scr.testcase.test_login.TestLogin#test_login_04",
+  "historyId" : "0e100956095a62a96684d2a4c641be55",
+  "time" : {
+    "start" : 1635839429002,
+    "stop" : 1635839437036,
+    "duration" : 8034
+  },
+  "description" : "手机号为空，无法登陆",
+  "descriptionHtml" : "<p>手机号为空，无法登陆</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "LoggerGet",
+    "time" : {
+      "start" : 1635839366156,
+      "stop" : 1635839366156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver_init",
+    "time" : {
+      "start" : 1635839427880,
+      "stop" : 1635839429001,
+      "duration" : 1121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "手机号为空，无法登陆",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "只输入验证码，手机号为空",
+      "time" : {
+        "start" : 1635839429002,
+        "stop" : 1635839437036,
+        "duration" : 8034
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "关闭首页弹窗",
+        "time" : {
+          "start" : 1635839433953,
+          "stop" : 1635839434468,
+          "duration" : 515
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "vcode",
+        "value" : "'1101'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver_init::0",
+    "time" : {
+      "start" : 1635839437037,
+      "stop" : 1635839439134,
+      "duration" : 2097
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录模块测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scr.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HT2VT3A"
+  }, {
+    "name" : "thread",
+    "value" : "15272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scr.testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "[1, '手机号为空，无法登陆', '1101', 'y', None]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea4df86ef507ef9d.json",
+  "parameterValues" : [ "[1, '手机号为空，无法登陆', '1101', 'y', None]" ]
+}

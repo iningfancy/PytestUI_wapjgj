@@ -1,0 +1,188 @@
+{
+  "uid" : "ee0235f2b70e20b",
+  "name" : "验证码为空，不可登陆",
+  "fullName" : "scr.testcase.test_login.TestLogin#test_login_03",
+  "historyId" : "4f57822ed30628849c39ded961f8361f",
+  "time" : {
+    "start" : 1635839417419,
+    "stop" : 1635839425445,
+    "duration" : 8026
+  },
+  "description" : "验证码为空，无法登陆",
+  "descriptionHtml" : "<p>验证码为空，无法登陆</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '' == '登录'\n  - 登录",
+  "statusTrace" : "self = <scr.testcase.test_login.TestLogin object at 0x0000023A6C297AF0>\ncaseinfo = [1, '验证码为空，无法登陆', '18583773317', 'y', None]\n\n    @allure.story(\"登录模块测试\")\n    @allure.title(\"验证码为空，不可登陆\")\n    @allure.severity(allure.severity_level.NORMAL)\n    @pytest.mark.parametrize('caseinfo',read_excel(\"./data/data_login.xlsx\",\"phone_none\"))\n    def test_login_03(self,caseinfo):\n        index,case_name,phone,is_exe,result = caseinfo\n        #加上用例描述\n        allure.dynamic.description(case_name)\n        lp = scr.page.login_page.LoginPage(self.driver)\n        value = lp.phone_none(phone)\n>       assert '' == value\nE       AssertionError: assert '' == '登录'\nE         - 登录\n\nscr\\testcase\\test_login.py:52: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "LoggerGet",
+    "time" : {
+      "start" : 1635839366156,
+      "stop" : 1635839366156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver_init",
+    "time" : {
+      "start" : 1635839416346,
+      "stop" : 1635839417419,
+      "duration" : 1073
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "验证码为空，无法登陆",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '' == '登录'\n  - 登录",
+    "statusTrace" : "self = <scr.testcase.test_login.TestLogin object at 0x0000023A6C297AF0>\ncaseinfo = [1, '验证码为空，无法登陆', '18583773317', 'y', None]\n\n    @allure.story(\"登录模块测试\")\n    @allure.title(\"验证码为空，不可登陆\")\n    @allure.severity(allure.severity_level.NORMAL)\n    @pytest.mark.parametrize('caseinfo',read_excel(\"./data/data_login.xlsx\",\"phone_none\"))\n    def test_login_03(self,caseinfo):\n        index,case_name,phone,is_exe,result = caseinfo\n        #加上用例描述\n        allure.dynamic.description(case_name)\n        lp = scr.page.login_page.LoginPage(self.driver)\n        value = lp.phone_none(phone)\n>       assert '' == value\nE       AssertionError: assert '' == '登录'\nE         - 登录\n\nscr\\testcase\\test_login.py:52: AssertionError",
+    "steps" : [ {
+      "name" : "只输入手机号，验证码为空",
+      "time" : {
+        "start" : 1635839417419,
+        "stop" : 1635839425437,
+        "duration" : 8018
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "关闭首页弹窗",
+        "time" : {
+          "start" : 1635839422374,
+          "stop" : 1635839422891,
+          "duration" : 517
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "'18583773317'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1635839425763,
+        "stop" : 1635839425763,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb2c3c7175913095",
+        "name" : "失败截图",
+        "source" : "eb2c3c7175913095.png",
+        "type" : "image/png",
+        "size" : 111438
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver_init::0",
+    "time" : {
+      "start" : 1635839425764,
+      "stop" : 1635839427875,
+      "duration" : 2111
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录模块测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scr.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HT2VT3A"
+  }, {
+    "name" : "thread",
+    "value" : "15272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scr.testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "[1, '验证码为空，无法登陆', '18583773317', 'y', None]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ee0235f2b70e20b.json",
+  "parameterValues" : [ "[1, '验证码为空，无法登陆', '18583773317', 'y', None]" ]
+}
